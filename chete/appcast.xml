@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Chete</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sun, 15 Nov 2026 21:45:42 -0500</pubDate>
+            <sparkle:version>20261116.0234</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[The first version.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.0.0/Chete-1.0.0.dmg" length="2636230" type="application/octet-stream" sparkle:edSignature="WGYzYijyXoeSexYqvQ74SAXTWRSgLHDZwIZPjSCaQv1fJLQUh140Q75kfcONtdQaiMcQZCaxTm/N5xLIJwr/AQ=="/>
+        </item>
+    </channel>
+</rss>
