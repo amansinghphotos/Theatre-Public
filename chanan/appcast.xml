@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Chanan</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sun, 15 Nov 2026 21:42:40 -0500</pubDate>
+            <sparkle:version>20261116.0234</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[The first version.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.0/Chanan-1.0.0.dmg" length="2526605" type="application/octet-stream" sparkle:edSignature="agZhdrcpaxDAgr41iWABH+mvEB1LmkutOxSGX/Fv0i1hiE4ja+fVxQo20BjQoZ5INCTxbHx3EAqgFqaKj+BgBA=="/>
+        </item>
+    </channel>
+</rss>
