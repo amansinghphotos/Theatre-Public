@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Tikana</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 16 Nov 2026 14:03:33 -0500</pubDate>
+            <sparkle:version>20261116.1856</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[New: Tikana keeps the folders you choose tidy. Each file that arrives is matched against your rules, and a rule moves its files only once you approve it.
+Every move is listed in Done, with Undo.
+With a Claude key of your own, Claude suggests rules for the files none claims.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.0/Tikana-1.0.0.dmg" length="2819447" type="application/octet-stream" sparkle:edSignature="w57kEx45juypShGYxwvqVtcK3UpadP9naKPZcxk920MwGls/iEZbWCvMyz+XlFO74iYLe5LPnnBpkdY/bGRyCg=="/>
+        </item>
+    </channel>
+</rss>

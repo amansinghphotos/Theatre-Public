@@ -13,13 +13,14 @@
 
 | | | | |
 |:-:|---|---|:-:|
-| <img src="Icons/Bolo.png" width="44"> | **Bolo**<br><i>speak</i> | **Takes down what you say.**<br>Hold Right Option, talk, and let go; the words appear where you were typing. | [Download](https://apps.amansinghphotos.com/bolo/download/) |
-| <img src="Icons/Chanan.png" width="44"> | **Chanan**<br><i>light</i> | **Brings up the lights.**<br>The full brightness of a MacBook Pro’s display, in every app. | [Download](https://apps.amansinghphotos.com/chanan/download/) |
-| <img src="Icons/Chete.png" width="44"> | **Chete**<br><i>remembering</i> | **Remembers what you copied.**<br>Everything you have copied, in one list, kept on your Mac. | [Download](https://apps.amansinghphotos.com/chete/download/) |
-| <img src="Icons/Pehra.png" width="44"> | **Pehra**<br><i>keeping watch</i> | **Keeps watch.**<br>What your Mac is doing, at a glance from the menu bar. | [Download](https://apps.amansinghphotos.com/pehra/download/) |
-| <img src="Icons/Vela.png" width="44"> | **Vela**<br><i>time</i> | **Keeps the time.**<br>All your calendars in one, by day, week or month, and a line to add to them. | [Download](https://apps.amansinghphotos.com/vela/download/) |
-| | **The Whole Company** | All five in one download. | [Download All Five](https://apps.amansinghphotos.com/all/download/) |
+| <img src="Icons/Bolo.png" width="44"> | **Bolo**<br><i>speak</i> | **Takes down what you say.** | [Download](https://apps.amansinghphotos.com/bolo/download/) |
+| <img src="Icons/Chanan.png" width="44"> | **Chanan**<br><i>light</i> | **Brings up the lights.** | [Download](https://apps.amansinghphotos.com/chanan/download/) |
+| <img src="Icons/Chete.png" width="44"> | **Chete**<br><i>remembering</i> | **Remembers what you copied.** | [Download](https://apps.amansinghphotos.com/chete/download/) |
+| <img src="Icons/Pehra.png" width="44"> | **Pehra**<br><i>keeping watch</i> | **Keeps watch.** | [Download](https://apps.amansinghphotos.com/pehra/download/) |
+| <img src="Icons/Tikana.png" width="44"> | **Tikana**<br><i>place</i> | **Puts files away.** | [Download](https://apps.amansinghphotos.com/tikana/download/) |
+| <img src="Icons/Vela.png" width="44"> | **Vela**<br><i>time</i> | **Keeps the time.** | [Download](https://apps.amansinghphotos.com/vela/download/) |
+| | **The Whole Company** | All six in one download. | [Download All Six](https://apps.amansinghphotos.com/all/download/) |
 
-To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears.
+To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears and Tikana suggest rules.
 
 <p align="center"><i>Made by Aman Singh.</i></p>

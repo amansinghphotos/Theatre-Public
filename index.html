@@ -37,6 +37,7 @@
   --chanan: #7C5C14;
   --chete: #263E80;
   --pehra: #245E45;
+  --tikana: #56284C;
   --vela: #1C1A17;
   --icon-rest: drop-shadow(0 0 0 rgba(28, 26, 23, 0));
   --icon-up: drop-shadow(0 5px 6px rgba(28, 26, 23, .2));
@@ -109,6 +110,7 @@
     --chanan: #E3B23C;
     --chete: #8FA8F0;
     --pehra: #7CC4A0;
+    --tikana: #D592C4;
     --vela: #EFEBE3;
     --icon-rest: drop-shadow(0 0 .6px rgba(239, 235, 227, .6));
     --icon-up: drop-shadow(0 0 .6px rgba(239, 235, 227, .6)) drop-shadow(0 6px 8px rgba(0, 0, 0, .55));
@@ -205,8 +207,8 @@ h1 .ea { margin-left: -.03em; }
   grid-row: 1 / span 4;
   margin: calc(var(--cap-top) - var(--icon) * .10625) 0 0 calc(var(--icon) * -.10625);
 }
-/* The whole company: the five tiles in the room of one, set as the five on a die. */
-.five {
+/* The whole company: the six tiles in the room of one, three over three. */
+.six {
   --mini: calc((var(--tile) - 2 * var(--u)) / 3);
   --step: calc(var(--mini) + var(--u));
   --icon: calc(var(--mini) / .7875);
@@ -217,7 +219,7 @@ h1 .ea { margin-left: -.03em; }
   height: var(--tile);
   margin-top: var(--cap-top);
 }
-.five .pic {
+.six .pic {
   position: absolute;
   left: calc(var(--c) * var(--step) - var(--icon) * .10625);
   top: calc(var(--r) * var(--step) - var(--icon) * .10625);
@@ -283,7 +285,7 @@ h1 .ea { margin-left: -.03em; }
 }
 
 /* A Download. The link is the box; its face is what is drawn and pressed. One is filled, for the whole company;
-   the five are outlined and fill when their row is pointed at. */
+   the six are outlined and fill when their row is pointed at. */
 .get {
   grid-column: 2;
   justify-self: start;
@@ -374,7 +376,7 @@ h1 .ea { margin-left: -.03em; }
   .opening .rules.open { transform-origin: left center; animation: drawn .42s var(--spring) .15s both; }
   .opening .lede { animation: shown .3s ease-in-out .3s both; }
   .opening .label { animation: shown .24s ease-in-out .36s both; }
-  .opening .icon, .opening .five, .opening .name, .opening .gloss, .opening .role, .opening .line {
+  .opening .icon, .opening .six, .opening .name, .opening .gloss, .opening .role, .opening .line {
     animation: laid .3s var(--spring) both;
     animation-delay: calc(.3s + var(--i) * 70ms);
   }
@@ -397,12 +399,13 @@ h1 .ea { margin-left: -.03em; }
   .player .pic, .player .face .drop, .get:active .face { transform: none !important; }
 }
 
-/* The five icons, as the apps ship them. */
+/* The six icons, as the apps ship them. */
 :root {
   --pic-bolo: url("Icons/Bolo.png");
   --pic-chanan: url("Icons/Chanan.png");
   --pic-chete: url("Icons/Chete.png");
   --pic-pehra: url("Icons/Pehra.png");
+  --pic-tikana: url("Icons/Tikana.png");
   --pic-vela: url("Icons/Vela.png");
 }
 </style>
@@ -437,19 +440,20 @@ h1 .ea { margin-left: -.03em; }
       <h2 class="label" id="cast">The Cast</h2>
       <ul class="cast" aria-labelledby="cast">
         <li class="player company" style="--i: 0">
-          <div class="five" aria-hidden="true">
-            <i class="pic" style="--pic: var(--pic-bolo); --c: 0; --r: 0"></i>
-            <i class="pic" style="--pic: var(--pic-chanan); --c: 2; --r: 0"></i>
-            <i class="pic" style="--pic: var(--pic-chete); --c: 1; --r: 1"></i>
-            <i class="pic" style="--pic: var(--pic-pehra); --c: 0; --r: 2"></i>
-            <i class="pic" style="--pic: var(--pic-vela); --c: 2; --r: 2"></i>
+          <div class="six" aria-hidden="true">
+            <i class="pic" style="--pic: var(--pic-bolo); --c: 0; --r: .5"></i>
+            <i class="pic" style="--pic: var(--pic-chanan); --c: 1; --r: .5"></i>
+            <i class="pic" style="--pic: var(--pic-chete); --c: 2; --r: .5"></i>
+            <i class="pic" style="--pic: var(--pic-pehra); --c: 0; --r: 1.5"></i>
+            <i class="pic" style="--pic: var(--pic-tikana); --c: 1; --r: 1.5"></i>
+            <i class="pic" style="--pic: var(--pic-vela); --c: 2; --r: 1.5"></i>
           </div>
           <div class="bill">
             <h3 class="name">The Whole Company</h3>
             <span class="dots" aria-hidden="true"></span>
           </div>
-          <p class="role">All five in one download.</p>
-          <a class="get" href="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.1/Theatre.dmg"><span class="face"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g class="drop"><path d="M8 2.25v8"/><path d="M4.75 7.25 8 10.5l3.25-3.25"/></g><path d="M3 13.5h10"/></svg>Download All Five</span></a>
+          <p class="role">All six in one download.</p>
+          <a class="get" href="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.0/Theatre.dmg"><span class="face"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g class="drop"><path d="M8 2.25v8"/><path d="M4.75 7.25 8 10.5l3.25-3.25"/></g><path d="M3 13.5h10"/></svg>Download All Six</span></a>
         </li>
         <li class="player" style="--cloth: var(--bolo); --i: 1">
           <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-bolo)"></i></div>
@@ -499,7 +503,19 @@ h1 .ea { margin-left: -.03em; }
           <p class="line">What your Mac is doing, at a glance from the menu bar.</p>
           <a class="get" href="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.1/Pehra-1.0.1.dmg" aria-label="Download Pehra"><span class="face"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g class="drop"><path d="M8 2.25v8"/><path d="M4.75 7.25 8 10.5l3.25-3.25"/></g><path d="M3 13.5h10"/></svg>Download</span></a>
         </li>
-        <li class="player" style="--cloth: var(--vela); --i: 5">
+        <li class="player" style="--cloth: var(--tikana); --i: 5">
+          <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-tikana)"></i></div>
+          <div class="bill">
+            <h3 class="name">Tikana</h3>
+            <span class="gloss">place</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="pa" lang="pa-Guru">ਟਿਕਾਣਾ</span>
+          </div>
+          <p class="role">Puts files away.</p>
+          <p class="line">Each new file goes where your rules send it, once you have said yes.</p>
+          <a class="get" href="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.0/Tikana-1.0.0.dmg" aria-label="Download Tikana"><span class="face"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g class="drop"><path d="M8 2.25v8"/><path d="M4.75 7.25 8 10.5l3.25-3.25"/></g><path d="M3 13.5h10"/></svg>Download</span></a>
+        </li>
+        <li class="player" style="--cloth: var(--vela); --i: 6">
           <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-vela)"></i></div>
           <div class="bill">
             <h3 class="name">Vela</h3>
@@ -516,7 +532,7 @@ h1 .ea { margin-left: -.03em; }
     </main>
 
     <footer class="foot">
-      <p>To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears.</p>
+      <p>To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears and Tikana suggest rules.</p>
       <p class="by">Made by Aman Singh.</p>
     </footer>
   </div>
