@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Bolo</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sun, 15 Nov 2026 22:05:07 -0500</pubDate>
+            <sparkle:version>20261116.0234</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[The first version.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.0/Bolo-1.0.0.dmg" length="14848597" type="application/octet-stream" sparkle:edSignature="RbmcwQrkSU5XGpGDvkS1okTKXxMK2L8+DEbfizvmLPaGSr8+faTnLmxqtkimJL+qaKzrFUTat0fusky8WCZsAA=="/>
+        </item>
+    </channel>
+</rss>
