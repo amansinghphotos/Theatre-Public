@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Pehra</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sun, 15 Nov 2026 20:47:34 -0500</pubDate>
+            <sparkle:version>20261116.0141</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[The first version.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.0/Pehra-1.0.0.dmg" length="2981551" type="application/octet-stream" sparkle:edSignature="tMmDGrqSsNJc31Tw6okiFqfCk3Jwjif6cYNsDyRzEw6uofdmKOfkQAudC7Cwl7hy9oSyxy+EzfV3jaLVWD+sBg=="/>
+        </item>
+    </channel>
+</rss>

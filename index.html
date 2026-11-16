@@ -1,14 +1,508 @@
 <!doctype html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Theatre</title>
+<meta name="description" content="A small company of apps for the Mac.">
+<link rel="icon" href="Icon.png">
+<link rel="apple-touch-icon" href="Icon.png">
 <style>
-  :root { color-scheme: light dark; --paper: #F6F3EE; --ink: #1C1A17; }
-  @media (prefers-color-scheme: dark) { :root { --paper: #171513; --ink: #EFEBE3; } }
-  html, body { height: 100%; margin: 0; }
-  body { display: grid; place-items: center; background: var(--paper); color: var(--ink);
-         font: 400 2.5rem/1 "Libre Caslon Text", "Iowan Old Style", Georgia, serif; }
+/* The three faces, served from here; their licences are beside them in Fonts. */
+@font-face { font-family: "Libre Caslon Display"; font-weight: 400; font-display: swap; src: url("Fonts/LibreCaslonDisplay.woff2") format("woff2"); }
+@font-face { font-family: "Libre Caslon Text"; font-weight: 400; font-display: swap; src: url("Fonts/LibreCaslonText.woff2") format("woff2"); }
+@font-face { font-family: "Libre Caslon Text"; font-style: italic; font-weight: 400; font-display: swap; src: url("Fonts/LibreCaslonText-Italic.woff2") format("woff2"); }
+@font-face { font-family: "Noto Serif Gurmukhi"; font-weight: 400 500; font-display: swap; src: url("Fonts/NotoSerifGurmukhi.woff2") format("woff2"); }
+
+/* A playbill, set the way the apps are: the family's paper and ink, Caslon for what is read, the system face for small
+   labels and buttons. The title is set to the full measure, so its two ends are the page's two edges: every rule ends on
+   them, the icons stand on the left one, the Gurmukhi names and the buttons on the right one. What stands alone is centred.
+   Every gap is a count of one unit, --u. */
+:root {
+  color-scheme: light;
+  --paper: #F6F3EE;
+  --ink: #1C1A17;
+  --ink-2: #3D3934;
+  --muted: #5E5952;
+  --rule: rgba(28, 26, 23, .13);
+  --rule-strong: rgba(28, 26, 23, .26);
+  --edge: rgba(28, 26, 23, .45);
+  --leader: rgba(28, 26, 23, .4);
+  --mark: rgba(28, 26, 23, .16);
+  --button: #1C1A17;
+  --button-hover: #3D3934;
+  --on-button: #F6F3EE;
+  /* Each app's colour, read from its icon. */
+  --bolo: #8C3324;
+  --chanan: #7C5C14;
+  --chete: #263E80;
+  --pehra: #245E45;
+  --vela: #1C1A17;
+  --icon-rest: drop-shadow(0 0 0 rgba(28, 26, 23, 0));
+  --icon-up: drop-shadow(0 5px 6px rgba(28, 26, 23, .2));
+
+  --read: "Libre Caslon Text", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --show: "Libre Caslon Display", "Libre Caslon Text", "Big Caslon", "Iowan Old Style", Georgia, serif;
+  --fact: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", system-ui, sans-serif;
+  --gurmukhi: "Noto Serif Gurmukhi", "Gurmukhi MN", "Gurmukhi Sangam MN", "Mukta Mahee", "Noto Sans Gurmukhi", Raavi, serif;
+
+  --u: .25rem;
+  --measure: 50rem;
+  --spring: cubic-bezier(.2, .8, .2, 1);   /* the apps' spring with no bounce: leaves at speed, slows to rest */
+
+  /* Sizes and gaps, in units; the wide page restates them below. */
+  --edge-gap: calc(12 * var(--u));  /* above the title, below the foot */
+  --under-title: calc(4 * var(--u));
+  --over-lede: calc(6 * var(--u));
+  --over-head: calc(10 * var(--u));
+  --row: calc(6 * var(--u));        /* above a name's capitals, and below a row's last thing */
+  --text-x: calc(16 * var(--u));    /* where a row's words begin */
+  --name: 1.375rem;
+  --pa: 1.625rem;
+  --bill: calc(9 * var(--u));       /* the height of a name's line */
+  --under-bill: calc(1 * var(--u));
+  --role: 1rem;
+  --line: .9375rem;
+  --lead: calc(6 * var(--u));       /* the height of a line of reading */
+
+  /* Caslon's own measures, as parts of its size: how tall a capital stands, and how far its baseline sits below the
+     middle of its line. From them: where a name's capitals begin inside its line, and an icon tile that starts with
+     those capitals and ends on the baseline of the line beneath. */
+  --cap: .735;
+  --sit: .3;
+  --cap-top: calc(var(--bill) / 2 - var(--name) * (var(--cap) - var(--sit)));
+  --role-drop: calc(var(--lead) / 2 + var(--role) * var(--sit));   /* from a line's top to its baseline */
+  --line-drop: calc(var(--lead) / 2 + var(--line) * var(--sit));
+  --tile: calc(var(--bill) - var(--cap-top) + var(--under-bill) + var(--role-drop));
+  --icon: calc(var(--tile) / .7875);  /* the picture's box: the tile is 126 of its 160, set in by 17 */
+}
+@media (min-width: 48rem) {
+  :root {
+    --edge-gap: calc(20 * var(--u));
+    --under-title: calc(6 * var(--u));
+    --over-lede: calc(7 * var(--u));
+    --over-head: calc(12 * var(--u));
+    --row: calc(8 * var(--u));
+    --text-x: calc(21 * var(--u));
+    --name: 2rem;
+    --pa: 2.375rem;
+    --bill: calc(11 * var(--u));
+    --under-bill: calc(2 * var(--u));
+    --role: 1.125rem;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #171513;
+    --ink: #EFEBE3;
+    --ink-2: #D3CEC4;
+    --muted: #A8A297;
+    --rule: rgba(239, 235, 227, .13);
+    --rule-strong: rgba(239, 235, 227, .26);
+    --edge: rgba(239, 235, 227, .45);
+    --leader: rgba(239, 235, 227, .4);
+    --mark: rgba(239, 235, 227, .22);
+    --button: #EFEBE3;
+    --button-hover: #D3CEC4;
+    --on-button: #171513;
+    --bolo: #EE8A72;
+    --chanan: #E3B23C;
+    --chete: #8FA8F0;
+    --pehra: #7CC4A0;
+    --vela: #EFEBE3;
+    --icon-rest: drop-shadow(0 0 .6px rgba(239, 235, 227, .6));
+    --icon-up: drop-shadow(0 0 .6px rgba(239, 235, 227, .6)) drop-shadow(0 6px 8px rgba(0, 0, 0, .55));
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 var(--line)/var(--lead) var(--read);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+::selection { background: var(--mark); }
+
+.page {
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-top: var(--edge-gap);
+  padding-bottom: var(--edge-gap);
+  overflow-wrap: break-word;
+}
+.sheet { max-width: var(--measure); margin: 0 auto; container-type: inline-size; }
+
+/* The title: seven capitals spread to the two edges, whatever face draws them. */
+h1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font: 400 clamp(3rem, 17.4vw, 9.5rem)/.74 var(--show);
+  font-size: 19cqi;
+}
+h1 span { display: block; text-box: trim-both cap alphabetic; }
+@supports (text-box: trim-both cap alphabetic) { h1 { line-height: 1; } }
+/* A capital's own side space, taken back so the ink meets the edge; then the two pairs that stand too far apart. */
+h1 span:first-child { margin-left: -.0205em; }
+h1 span:last-child { margin-right: -.058em; }
+h1 .at { margin-left: -.075em; }
+h1 .ea { margin-left: -.03em; }
+
+.rules {
+  height: 7px;
+  border: solid var(--ink);
+  border-width: 3px 0 1px;
+  margin-top: var(--under-title);
+}
+.rules.close { border-width: 1px 0 3px; margin-top: 0; }
+
+.lede {
+  margin: var(--over-lede) 0 0;
+  font-size: 1.0625rem;
+  line-height: calc(6 * var(--u));
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* The cast. */
+.label {
+  margin: var(--over-head) 0 0;
+  padding-bottom: calc(2 * var(--u));
+  border-bottom: 1px solid var(--rule-strong);
+  font: 500 .8125rem/calc(4 * var(--u)) var(--fact);
+  font-variant-caps: all-small-caps;
+  letter-spacing: .08em;
+  text-align: center;
+  color: var(--muted);
+}
+.cast { list-style: none; margin: 0; padding: 0; }
+.player {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--text-x) minmax(0, 1fr);
+  align-items: start;
+  /* The name's line stands taller than its capitals; the top gap gives that back, so the gap above the capitals
+     and the gap below the row's last thing measure the same. */
+  padding: calc(var(--row) - var(--cap-top)) 0 var(--row);
+  border-bottom: 1px solid var(--rule);
+}
+.player:last-child { border-bottom: 0; }
+
+/* An app's icon: its tile starts on the left edge, level with the capitals of its name. */
+.pic {
+  display: block;
+  width: var(--icon);
+  height: var(--icon);
+  background: var(--pic) center / 100% 100% no-repeat;
+  filter: var(--icon-rest);
+  transition: transform .24s var(--spring), filter .24s var(--spring);
+}
+.icon {
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  margin: calc(var(--cap-top) - var(--icon) * .10625) 0 0 calc(var(--icon) * -.10625);
+}
+/* The whole company: the five tiles in the room of one, set as the five on a die. */
+.five {
+  --mini: calc((var(--tile) - 2 * var(--u)) / 3);
+  --step: calc(var(--mini) + var(--u));
+  --icon: calc(var(--mini) / .7875);
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  position: relative;
+  width: var(--tile);
+  height: var(--tile);
+  margin-top: var(--cap-top);
+}
+.five .pic {
+  position: absolute;
+  left: calc(var(--c) * var(--step) - var(--icon) * .10625);
+  top: calc(var(--r) * var(--step) - var(--icon) * .10625);
+}
+
+/* A player's billing: name and meaning, leaders, the name in Gurmukhi. */
+.bill {
+  grid-column: 2;
+  display: flex;
+  align-items: baseline;
+  column-gap: calc(2 * var(--u));
+  height: var(--bill);
+}
+.name {
+  margin: 0;
+  font: 400 var(--name)/var(--bill) var(--read);
+  letter-spacing: -.012em;
+  white-space: nowrap;
+}
+.gloss {
+  font-style: italic;
+  font-size: .875rem;
+  line-height: 0;   /* the name alone sets the line; the others only stand on its baseline */
+  white-space: nowrap;
+  color: var(--muted);
+}
+.dots {
+  flex: 1 1 1rem;
+  min-width: 0;
+  height: 3px;
+  position: relative;
+  color: var(--leader);
+  background: radial-gradient(circle at 50% 50%, currentColor 0 1px, transparent 1.3px) 0 0 / 9px 3px round no-repeat;
+}
+.dots::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  color: var(--cloth);
+  background: var(--paper) radial-gradient(circle at 50% 50%, currentColor 0 1px, transparent 1.3px) 0 0 / 9px 3px round no-repeat;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path .22s ease-in;
+}
+.pa {
+  margin-left: auto;
+  font: 500 var(--pa)/0 var(--gurmukhi);
+  white-space: nowrap;
+  color: var(--cloth);
+}
+
+/* Its part, as a programme bills it, and one plain sentence. */
+.role {
+  grid-column: 2;
+  margin: var(--under-bill) 0 0;
+  font-style: italic;
+  font-size: var(--role);
+}
+.line {
+  grid-column: 2;
+  margin: var(--u) 0 0;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+/* A Download. The link is the box; its face is what is drawn and pressed. One is filled, for the whole company;
+   the five are outlined and fill when their row is pointed at. */
+.get {
+  grid-column: 2;
+  justify-self: start;
+  margin-top: calc(4 * var(--u));
+  display: block;
+  font: 500 .875rem/1 var(--fact);
+  text-decoration: none;
+  white-space: nowrap;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.face {
+  display: flex;
+  align-items: center;
+  gap: calc(2 * var(--u));
+  height: calc(11 * var(--u));
+  padding: 0 calc(5 * var(--u)) 0 calc(4 * var(--u));
+  border-radius: 8px;
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--edge);
+  transition: background-color .12s ease-out, color .12s ease-out, box-shadow .12s ease-out, transform .18s var(--spring);
+}
+.company .face { background: var(--button); color: var(--on-button); box-shadow: none; }
+.face svg { display: block; width: 1rem; height: 1rem; flex: none; }
+.face .drop { transition: transform .18s var(--spring); }
+.get:focus-visible .face { outline: 2px solid var(--ink); outline-offset: 2px; }
+/* A press goes down at once and comes back with the apps' own press. */
+.get:active .face { transform: scale(.97); transition-duration: 0s; }
+.company { --cloth: var(--ink); }
+.company .dots { display: none; }
+
+/* A row answers as one thing: its leaders run out in the app's colour, its icon lifts, its button fills.
+   With a mouse the whole row is the Download; a finger gets the button alone, so a stray touch downloads nothing. */
+@media (hover: hover) and (pointer: fine) {
+  .get::after { content: ""; position: absolute; inset: 0; }
+  .player:has(.get):hover .face { background: var(--button); color: var(--on-button); box-shadow: inset 0 0 0 1px var(--button); }
+  .company:has(.get):hover .face { background: var(--button-hover); box-shadow: none; }
+  .player:has(.get):hover .face .drop { transform: translateY(1.5px); }
+  .player:has(.get):hover .dots::after { clip-path: inset(0 0 0 0); transition: clip-path .34s var(--spring); }
+  .player:has(.get):hover .pic { transform: translateY(-2px); }
+  .player:has(.get):hover .icon .pic { filter: var(--icon-up); }
+}
+.player:has(.get:focus-visible) .dots::after { clip-path: inset(0 0 0 0); transition: clip-path .34s var(--spring); }
+.player:has(.get:focus-visible) .pic { transform: translateY(-2px); }
+
+/* The foot. */
+.foot {
+  padding-top: var(--row);
+  text-align: center;
+  color: var(--muted);
+  font-size: .875rem;
+  line-height: calc(5 * var(--u));
+}
+.foot p { margin: 0 auto; max-width: 32rem; text-wrap: balance; }
+.foot .by { margin-top: calc(6 * var(--u)); font-style: italic; color: var(--ink-2); }
+
+/* From a tablet up: the larger sizes. */
+@media (min-width: 48rem) {
+  .lede { font-size: 1.25rem; line-height: calc(7 * var(--u)); }
+  .player { grid-template-columns: var(--text-x) minmax(0, 1fr) auto; }
+  .bill { grid-column: 2 / -1; column-gap: calc(4 * var(--u)); }
+  .gloss { font-size: .9375rem; }
+  .get { font-size: .8125rem; }
+  .face { height: calc(8 * var(--u)); padding: 0 calc(4 * var(--u)) 0 calc(3 * var(--u)); border-radius: 7px; }
+  .face svg { width: .875rem; height: .875rem; }
+  .foot { font-size: .8125rem; }
+  .foot .by { margin-top: calc(8 * var(--u)); }
+}
+/* Wide: each player's button stands at the right edge, beside its words, and the company's on its own line of
+   leaders. A row then ends on its last baseline, so the gap below is counted from there. */
+@media (min-width: 52rem) {
+  .player { padding-bottom: calc(var(--row) - var(--lead) + var(--line-drop)); }
+  .get { grid-column: 3; grid-row: 2 / span 2; align-self: center; justify-self: end; margin: var(--under-bill) 0 0 calc(8 * var(--u)); }
+  .company { padding-bottom: calc(var(--row) - var(--lead) + var(--role-drop)); }
+  .company .bill { grid-column: 2; align-self: baseline; }
+  .company .dots { display: block; }
+  .company .get { grid-row: 1; align-self: baseline; margin: 0 0 0 calc(4 * var(--u)); }
+}
+@media (min-width: 48rem) and (pointer: coarse) {
+  .face { height: calc(11 * var(--u)); padding: 0 calc(5 * var(--u)) 0 calc(4 * var(--u)); }
+}
+
+/* The opening, in reading order and in the apps' own motion: the title is laid down letter by letter, the rule is drawn
+   under it, then each row comes down into place, its leaders run out, and its Gurmukhi name comes up last.
+   It plays only under .opening, which the script below adds and takes away again; the page without it is the page at rest.
+   The Download buttons take no part: they are there from the first frame. */
+@media (prefers-reduced-motion: no-preference) {
+  .opening h1 span { animation: laid .3s var(--spring) both; animation-delay: calc(var(--k) * 40ms); }
+  .opening .rules.open { transform-origin: left center; animation: drawn .42s var(--spring) .15s both; }
+  .opening .lede { animation: shown .3s ease-in-out .3s both; }
+  .opening .label { animation: shown .24s ease-in-out .36s both; }
+  .opening .icon, .opening .five, .opening .name, .opening .gloss, .opening .role, .opening .line {
+    animation: laid .3s var(--spring) both;
+    animation-delay: calc(.3s + var(--i) * 70ms);
+  }
+  .opening .dots { animation: run .3s var(--spring) both; animation-delay: calc(.4s + var(--i) * 70ms); }
+  .opening .pa {
+    transform-origin: right center;
+    animation: emerge .28s ease-in-out both;
+    animation-delay: calc(.56s + var(--i) * 70ms);
+  }
+  .opening .foot { animation: shown .3s ease-in-out .75s both; }
+}
+@keyframes laid { from { opacity: 0; transform: translateY(-6px); } }
+@keyframes shown { from { opacity: 0; } }
+@keyframes drawn { from { transform: scaleX(0); } }
+@keyframes run { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes emerge { from { opacity: 0; transform: scale(.97); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .pic, .face, .face .drop, .dots::after { transition: none !important; }
+  .player .pic, .player .face .drop, .get:active .face { transform: none !important; }
+}
+
+/* The five icons, as the apps ship them. */
+:root {
+  --pic-bolo: url("Icons/Bolo.png");
+  --pic-chanan: url("Icons/Chanan.png");
+  --pic-chete: url("Icons/Chete.png");
+  --pic-pehra: url("Icons/Pehra.png");
+  --pic-vela: url("Icons/Vela.png");
+}
 </style>
-<body>Theatre</body>
+<script>
+/* Starts the opening before the first frame, and only where it can be seen and its clock is running. If the clock
+   stands still, or once the opening is over, the page goes back to its plain styles: the same page, at rest. */
+(function () {
+  var root = document.documentElement;
+  if (!window.matchMedia || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if (document.hidden || !document.timeline || !window.requestAnimationFrame) return;
+  var rest = function () { root.classList.remove("opening"); };
+  root.classList.add("opening");
+  setTimeout(rest, 3000);
+  requestAnimationFrame(function () {
+    var began = document.timeline.currentTime;
+    setTimeout(function () { if (document.timeline.currentTime === began) rest(); }, 200);
+    setTimeout(rest, 1600);
+  });
+})();
+</script>
+</head>
+<body>
+<div class="page">
+  <div class="sheet">
+    <header>
+      <h1 aria-label="Theatre"><span aria-hidden="true" style="--k: 0">T</span><span aria-hidden="true" style="--k: 1">H</span><span aria-hidden="true" style="--k: 2">E</span><span aria-hidden="true" style="--k: 3" class="ea">A</span><span aria-hidden="true" style="--k: 4" class="at">T</span><span aria-hidden="true" style="--k: 5">R</span><span aria-hidden="true" style="--k: 6">E</span></h1>
+      <div class="rules open" aria-hidden="true"></div>
+      <p class="lede">A small company of apps for the Mac.</p>
+    </header>
+
+    <main>
+      <h2 class="label" id="cast">The Cast</h2>
+      <ul class="cast" aria-labelledby="cast">
+        <li class="player" style="--cloth: var(--bolo); --i: 1">
+          <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-bolo)"></i></div>
+          <div class="bill">
+            <h3 class="name">Bolo</h3>
+            <span class="gloss">speak</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="pa" lang="pa-Guru">ਬੋਲੋ</span>
+          </div>
+          <p class="role">Takes down what you say.</p>
+          <p class="line">Hold Right Option, talk, and let go; the words appear where you were typing.</p>
+        </li>
+        <li class="player" style="--cloth: var(--chanan); --i: 2">
+          <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-chanan)"></i></div>
+          <div class="bill">
+            <h3 class="name">Chanan</h3>
+            <span class="gloss">light</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="pa" lang="pa-Guru">ਚਾਨਣ</span>
+          </div>
+          <p class="role">Brings up the lights.</p>
+          <p class="line">The full brightness of a MacBook Pro’s display, in every app.</p>
+        </li>
+        <li class="player" style="--cloth: var(--chete); --i: 3">
+          <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-chete)"></i></div>
+          <div class="bill">
+            <h3 class="name">Chete</h3>
+            <span class="gloss">remembering</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="pa" lang="pa-Guru">ਚੇਤੇ</span>
+          </div>
+          <p class="role">Remembers what you copied.</p>
+          <p class="line">Everything you have copied, in one list, kept on your Mac.</p>
+        </li>
+        <li class="player" style="--cloth: var(--pehra); --i: 4">
+          <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-pehra)"></i></div>
+          <div class="bill">
+            <h3 class="name">Pehra</h3>
+            <span class="gloss">keeping watch</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="pa" lang="pa-Guru">ਪਹਿਰਾ</span>
+          </div>
+          <p class="role">Keeps watch.</p>
+          <p class="line">What your Mac is doing, at a glance from the menu bar.</p>
+          <a class="get" href="/pehra/download/" aria-label="Download Pehra"><span class="face"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g class="drop"><path d="M8 2.25v8"/><path d="M4.75 7.25 8 10.5l3.25-3.25"/></g><path d="M3 13.5h10"/></svg>Download</span></a>
+        </li>
+        <li class="player" style="--cloth: var(--vela); --i: 5">
+          <div class="icon" aria-hidden="true"><i class="pic" style="--pic: var(--pic-vela)"></i></div>
+          <div class="bill">
+            <h3 class="name">Vela</h3>
+            <span class="gloss">time</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="pa" lang="pa-Guru">ਵੇਲਾ</span>
+          </div>
+          <p class="role">Keeps the time.</p>
+          <p class="line">All your calendars in one, by day, week or month, and a line to add to them.</p>
+        </li>
+      </ul>
+      <div class="rules close" aria-hidden="true"></div>
+    </main>
+
+    <footer class="foot">
+      <p>To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears.</p>
+      <p class="by">Made by Aman Singh.</p>
+    </footer>
+  </div>
+</div>
+</body>
 </html>
