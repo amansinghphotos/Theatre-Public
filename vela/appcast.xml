@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Vela</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sun, 15 Nov 2026 22:06:55 -0500</pubDate>
+            <sparkle:version>20261116.0305</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[The first version.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.0/Vela-1.0.0.dmg" length="3194092" type="application/octet-stream" sparkle:edSignature="8Aa9jtpdy8+I8LCHXqy2yUQhRyNgyBoZu0+oJD+UXaO03AwyryTfuDI02Lz+P3fPhKeW3uEeqlYKJ0NkBv74Dw=="/>
+        </item>
+    </channel>
+</rss>
