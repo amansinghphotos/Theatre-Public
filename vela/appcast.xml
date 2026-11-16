@@ -3,14 +3,16 @@
     <channel>
         <title>Vela</title>
         <item>
-            <title>1.0.0</title>
-            <pubDate>Sun, 15 Nov 2026 22:06:55 -0500</pubDate>
-            <sparkle:version>20261116.0305</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <title>1.0.1</title>
+            <pubDate>Mon, 16 Nov 2026 12:12:37 -0500</pubDate>
+            <sparkle:version>20261116.1657</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[The first version.
+            <description sparkle:format="plain-text"><![CDATA[New: Drag across a day or across hours to add an event. Typing a place suggests places from Apple Maps. A first run shows what Vela needs and why.
+Fixed: The toolbar's buttons are evenly spaced, with Today in the middle.
+Better: Motion is smoother throughout.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.0/Vela-1.0.0.dmg" length="3194092" type="application/octet-stream" sparkle:edSignature="8Aa9jtpdy8+I8LCHXqy2yUQhRyNgyBoZu0+oJD+UXaO03AwyryTfuDI02Lz+P3fPhKeW3uEeqlYKJ0NkBv74Dw=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.1/Vela-1.0.1.dmg" length="3370334" type="application/octet-stream" sparkle:edSignature="R2YNR+4MjNuz2b/ifkohuvIEeo47muvp123jYhrGu+TkaFfTdcLLwiXGge/ZRu//+GyrfAE7mvV2QvAnZjVKCw=="/>
         </item>
     </channel>
 </rss>
