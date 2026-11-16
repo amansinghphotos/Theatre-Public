@@ -3,14 +3,15 @@
     <channel>
         <title>Chete</title>
         <item>
-            <title>1.0.0</title>
-            <pubDate>Sun, 15 Nov 2026 21:45:42 -0500</pubDate>
-            <sparkle:version>20261116.0234</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <title>1.0.1</title>
+            <pubDate>Mon, 16 Nov 2026 12:08:15 -0500</pubDate>
+            <sparkle:version>20261116.1657</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[The first version.
+            <description sparkle:format="plain-text"><![CDATA[New: A first run that shows what Chete needs and why. Opened from its disk image, it offers to move itself to Applications.
+Better: Chete opens in the centre of the screen from the menu bar. Motion is smoother throughout, and the buttons in the card sit evenly.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.0.0/Chete-1.0.0.dmg" length="2636230" type="application/octet-stream" sparkle:edSignature="WGYzYijyXoeSexYqvQ74SAXTWRSgLHDZwIZPjSCaQv1fJLQUh140Q75kfcONtdQaiMcQZCaxTm/N5xLIJwr/AQ=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.0.1/Chete-1.0.1.dmg" length="2731499" type="application/octet-stream" sparkle:edSignature="xMbu+h7TSBxtjX2a4RwVXRRj9cfQdAVlyoGywZ2rdhZd8CHxictlT3FMwqfyLULzNY9nPoWXJutvtmkqV5pKBQ=="/>
         </item>
     </channel>
 </rss>
