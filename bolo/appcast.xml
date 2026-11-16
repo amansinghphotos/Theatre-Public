@@ -3,14 +3,16 @@
     <channel>
         <title>Bolo</title>
         <item>
-            <title>1.0.0</title>
-            <pubDate>Sun, 15 Nov 2026 22:05:07 -0500</pubDate>
-            <sparkle:version>20261116.0234</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <title>1.0.1</title>
+            <pubDate>Mon, 16 Nov 2026 12:05:54 -0500</pubDate>
+            <sparkle:version>20261116.1657</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[The first version.
+            <description sparkle:format="plain-text"><![CDATA[New: A first run that shows what Bolo needs and why. Opened from its disk image, it offers to move itself to Applications.
+Fixed: The waveform moves as you speak. A dictation no longer stays on the clipboard once it is typed. A word in your Dictionary is heard even when it sounds like a rare English word.
+Better: Motion is smoother throughout, and the buttons in the card sit evenly.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.0/Bolo-1.0.0.dmg" length="14848597" type="application/octet-stream" sparkle:edSignature="RbmcwQrkSU5XGpGDvkS1okTKXxMK2L8+DEbfizvmLPaGSr8+faTnLmxqtkimJL+qaKzrFUTat0fusky8WCZsAA=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.1/Bolo-1.0.1.dmg" length="14948850" type="application/octet-stream" sparkle:edSignature="5nPk2EHr4shfH6dONRa/wKO9a2gWsvpGoGaXIP1Ik/mA+s/ubCPKCsk57b1lGfkPXJncSmnuotgCa1LEDfmnBQ=="/>
         </item>
     </channel>
 </rss>
