@@ -3,16 +3,16 @@
     <channel>
         <title>Pehra</title>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Mon, 16 Nov 2026 12:10:25 -0500</pubDate>
-            <sparkle:version>20261116.1657</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <title>1.0.2</title>
+            <pubDate>Mon, 16 Nov 2026 23:25:25 -0500</pubDate>
+            <sparkle:version>20261117.0422</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[New: A first run that shows what Pehra does. Opened from its disk image, it offers to move itself to Applications.
-Fixed: Pehra keeps recording while its window is closed, so the graphs have no gaps, and the five-minute range is no longer skipped.
-Better: Figures and the reading under the pointer move smoothly, without jumping.
+            <description sparkle:format="plain-text"><![CDATA[Fixed: The battery card tells charging from draining, and shows what the charger is giving.
+Better: The graph fades from one range to the next, by key or by pointer.
+Fixed: Check for Updates… says when a newer version is ready, and the update window comes to the front.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.1/Pehra-1.0.1.dmg" length="3091149" type="application/octet-stream" sparkle:edSignature="IvA7me+exmYDsGzLoZ8DMIY+iBcWdkjXy4YyrDQwqAes5NoXcJG4qb5B+OVSAdHfGNsawD1ItIm7YvIwpHKODA=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.2/Pehra-1.0.2.dmg" length="3093626" type="application/octet-stream" sparkle:edSignature="vM7uzpzdvt4+XtU9iZePPXWPLsXpk6L03mC4EscVsMwvSXchhrQ2HpR7dtzgJkA3riP8qj13NdqnKEACwUjCDA=="/>
         </item>
     </channel>
 </rss>
