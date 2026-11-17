@@ -3,16 +3,14 @@
     <channel>
         <title>Chanan</title>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Mon, 16 Nov 2026 12:01:01 -0500</pubDate>
-            <sparkle:version>20261116.1657</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <title>1.0.2</title>
+            <pubDate>Tue, 17 Nov 2026 00:42:18 -0500</pubDate>
+            <sparkle:version>20261117.0422</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[New: A first run that shows what Chanan needs and why. Opened from its disk image, it offers to move itself to Applications.
-Better: Motion is smoother throughout, and the buttons and tiles in the card sit evenly.
-Fixed: The brightness figure rolls as it changes in the card.
+            <description sparkle:format="plain-text"><![CDATA[Fixed: Check for Updates… says when a newer version is ready, and the update window comes to the front.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.1/Chanan-1.0.1.dmg" length="2627842" type="application/octet-stream" sparkle:edSignature="FUTqJzBnvoQ09zKfTH/xEx7MG5WT57fJLjYQExekw7LsxrKWKg/6B0d3iPh2ACwh3qfSl7SsBn7MuNw2ucETAg=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.2/Chanan-1.0.2.dmg" length="2629309" type="application/octet-stream" sparkle:edSignature="bHaAh7t3A6LVIDapp3A23CaDO8ZL/TiPj7q+T+aqBWA6dfurq9YZ7OH2Lp8uDR2DeOBLFm4f8iLlfDwIaD/5Ag=="/>
         </item>
     </channel>
 </rss>
