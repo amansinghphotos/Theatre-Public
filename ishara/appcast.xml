@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ishara</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Tue, 17 Nov 2026 09:45:00 -0500</pubDate>
+            <sparkle:version>20261117.0639</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[New: Ishara runs your shortcuts from any app. Hold Caps Lock and press a key, tap a key like Shift alone, or swipe three fingers on the trackpad.
+A shortcut opens an app, presses keys in the app in front, or moves the window in front.
+It hears a key only while Caps Lock is held, never your typing, and nothing leaves the Mac.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.0/Ishara-1.0.0.dmg" length="2666236" type="application/octet-stream" sparkle:edSignature="/87r5CtcsJ5n2DrsIzM1id1Atga+NoCtsoO1Hd6f/prbz5HDZZ6wZcpf/5xL9IoVPLY80tpZBoDPGmi1rPDuAg=="/>
+        </item>
+    </channel>
+</rss>

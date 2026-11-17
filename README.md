@@ -4,16 +4,19 @@
 
 ## The Cast
 
-| | | | |
-|:-:|---|---|:-:|
-| <img src="Icons/Bolo.png" width="44"> | **Bolo**<br><i>speak</i> | **Takes down what you say.** | [Download](https://apps.amansinghphotos.com/bolo/download/) |
-| <img src="Icons/Chanan.png" width="44"> | **Chanan**<br><i>light</i> | **Brings up the lights.** | [Download](https://apps.amansinghphotos.com/chanan/download/) |
-| <img src="Icons/Chete.png" width="44"> | **Chete**<br><i>remembering</i> | **Remembers what you copied.** | [Download](https://apps.amansinghphotos.com/chete/download/) |
-| <img src="Icons/Pehra.png" width="44"> | **Pehra**<br><i>keeping watch</i> | **Keeps watch.** | [Download](https://apps.amansinghphotos.com/pehra/download/) |
-| <img src="Icons/Poora.png" width="44"> | **Poora**<br><i>whole</i> | **Finishes your sentences.** | [Download](https://apps.amansinghphotos.com/poora/download/) |
-| <img src="Icons/Tikana.png" width="44"> | **Tikana**<br><i>place</i> | **Puts files away.** | [Download](https://apps.amansinghphotos.com/tikana/download/) |
-| <img src="Icons/Vela.png" width="44"> | **Vela**<br><i>time</i> | **Keeps the time.** | [Download](https://apps.amansinghphotos.com/vela/download/) |
-| | **The Whole Company** | All of them in one download. | [Download Them All](https://apps.amansinghphotos.com/all/download/) |
+| | | |
+|:-:|---|---|
+| <img src="Icons/Bolo.png" width="44"> | **Bolo**<br><i>speak</i> | **Takes down what you say.** |
+| <img src="Icons/Chanan.png" width="44"> | **Chanan**<br><i>light</i> | **Brings up the lights.** |
+| <img src="Icons/Chete.png" width="44"> | **Chete**<br><i>remembering</i> | **Remembers what you copied.** |
+| <img src="Icons/Ishara.png" width="44"> | **Ishara**<br><i>a sign</i> | **Takes your cue.** |
+| <img src="Icons/Pehra.png" width="44"> | **Pehra**<br><i>keeping watch</i> | **Keeps watch.** |
+| <img src="Icons/Poora.png" width="44"> | **Poora**<br><i>whole</i> | **Finishes your sentences.** |
+| <img src="Icons/Tikana.png" width="44"> | **Tikana**<br><i>place</i> | **Puts files away.** |
+| <img src="Icons/Vela.png" width="44"> | **Vela**<br><i>time</i> | **Keeps the time.** |
+| | **The Whole Company** | All of them in one download. |
+
+Download any of them, or all at once, at [apps.amansinghphotos.com](https://apps.amansinghphotos.com).
 
 To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears and Tikana suggest rules. Poora downloads its model once, 3.35 GB.
 
