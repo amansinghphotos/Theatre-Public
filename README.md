@@ -9,6 +9,7 @@
 | <img src="Icons/Bolo.png" width="44"> | **Bolo**<br><i>speak</i> | **Takes down what you say.** |
 | <img src="Icons/Chanan.png" width="44"> | **Chanan**<br><i>light</i> | **Brings up the lights.** |
 | <img src="Icons/Chete.png" width="44"> | **Chete**<br><i>remembering</i> | **Remembers what you copied.** |
+| <img src="Icons/Dak.png" width="44"> | **Dak**<br><i>the post</i> | **Brings the post.** |
 | <img src="Icons/Ishara.png" width="44"> | **Ishara**<br><i>a sign</i> | **Takes your cue.** |
 | <img src="Icons/Pehra.png" width="44"> | **Pehra**<br><i>keeping watch</i> | **Keeps watch.** |
 | <img src="Icons/Poora.png" width="44"> | **Poora**<br><i>whole</i> | **Finishes your sentences.** |
