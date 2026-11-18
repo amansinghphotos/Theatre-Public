@@ -12,13 +12,12 @@
 | <img src="Icons/Dak.png" width="44"> | **Dak**<br><i>the post</i> | **Brings the post.** |
 | <img src="Icons/Ishara.png" width="44"> | **Ishara**<br><i>a sign</i> | **Takes your cue.** |
 | <img src="Icons/Pehra.png" width="44"> | **Pehra**<br><i>keeping watch</i> | **Keeps watch.** |
-| <img src="Icons/Poora.png" width="44"> | **Poora**<br><i>whole</i> | **Finishes your sentences.** |
 | <img src="Icons/Tikana.png" width="44"> | **Tikana**<br><i>place</i> | **Puts files away.** |
 | <img src="Icons/Vela.png" width="44"> | **Vela**<br><i>time</i> | **Keeps the time.** |
 | | **The Whole Company** | All of them in one download. |
 
 Download any of them, or all at once, at [apps.amansinghphotos.com](https://apps.amansinghphotos.com).
 
-To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears and Tikana suggest rules. Poora downloads its model once, 3.35 GB.
+To install, open the download and drag the app to Applications. After that, the apps keep themselves up to date. They need an Apple silicon Mac with macOS 27. A Claude key of your own lets Bolo tidy what it hears and Tikana suggest rules.
 
 <p align="center"><i>Made by Aman Singh.</i></p>
