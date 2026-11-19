@@ -1,18 +1,23 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Tikana</title>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Tue, 17 Nov 2026 00:19:39 -0500</pubDate>
-            <sparkle:version>20261117.0422</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <title>1.0.3</title>
+            <pubDate>Thu, 19 Nov 2026 01:47:59 -0500</pubDate>
+            <sparkle:version>20261119.0533.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[New: Name your places, the folders where files may go, in Settings or as Tikana first opens, each with a line on what it holds.
-Better: Waiting says why nothing waits, with the button that puts it right. Adding a place or saving your key asks Claude at once.
-Fixed: With folders and a key but no places, Tikana did nothing and never said why. Check for Updates… now says when a newer version is ready, and the update window comes to the front.
+            <description sparkle:format="plain-text"><![CDATA[New: Tikana learns the folders you already keep and suggests a home among them. Places are gone: it may suggest anywhere you keep files.
+New: A Rules page shows every rule it has learned. Set one to Always, Ask or Off.
+New: Tikana updates itself while you are not using it, and says so on its card.
+Fixed: Undoing a move sets its rule back to asking, and a download still being written is left alone.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.1/Tikana-1.0.1.dmg" length="2863041" type="application/octet-stream" sparkle:edSignature="2Rm+xxnxnt4u2GJFd381zGoaUyQPGifYwGQMdQT/BXdDGc/tZQJhTnGBnNa548veX6rMI5AX89JSdxu4NHdmDA=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.3/Tikana-1.0.3.dmg" length="3087123" type="application/octet-stream" sparkle:edSignature="9htg1bE3P4cnjlqp/lnQe/3a4y6gUsx4pGnINCxJ2wRt0THrwvcDphkPCkGzfmCMSMK5Aobi1BKBBsSTzUXODQ=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: ogui/NIdYgLrEwYD5CullrnZkQQ7PkoK5DEYA09F226f63jcZCtQzSBrRIPJf+FC3DOaB4G6q4ei6NZ2/kg9CQ==
+length: 1551
+-->
