@@ -1,16 +1,23 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Chete</title>
         <item>
-            <title>1.0.2</title>
-            <pubDate>Tue, 17 Nov 2026 00:56:07 -0500</pubDate>
-            <sparkle:version>20261117.0422</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <title>1.0.3</title>
+            <pubDate>Thu, 19 Nov 2026 01:44:56 -0500</pubDate>
+            <sparkle:version>20261119.0533.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[Fixed: Check for Updates… says when a newer version is ready, and the update window comes to the front.
+            <description sparkle:format="plain-text"><![CDATA[New: Chete updates itself while you are not using it, and says so on its card.
+Fixed: A copy made just after login is no longer lost.
+Fixed: Two lines of plain text are no longer filed as code.
+Better: It rests while the screens sleep.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.0.2/Chete-1.0.2.dmg" length="2733070" type="application/octet-stream" sparkle:edSignature="V7KNHQ0inMKP/yJgeIB+g2C5biof+ri1jn7Lhy5A6LJfNcDbAX4UfReO81+DhXinHGlW0PKlT1cd76GxworcBQ=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.0.3/Chete-1.0.3.dmg" length="2842367" type="application/octet-stream" sparkle:edSignature="kl8Qwp5xcRJBnMU8TTVRnsEUMhxRFCMRE8NwVvP3qephLyC/r/vUN62SE999a0HGxqQokkjOESwEbx7t1xPkDg=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: iwCruZO0tiV1lEhwASDlvCJXgCdrNgZ4k2kx376O1w0UdfRUG3WfKGFFRDRx0ybAJUdrUNEOHCp3S3rXp6krCQ==
+length: 1383
+-->
