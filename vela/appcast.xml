@@ -1,17 +1,23 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Vela</title>
         <item>
-            <title>1.0.2</title>
-            <pubDate>Tue, 17 Nov 2026 00:27:39 -0500</pubDate>
-            <sparkle:version>20261117.0422</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <title>1.0.3</title>
+            <pubDate>Thu, 19 Nov 2026 01:42:07 -0500</pubDate>
+            <sparkle:version>20261119.0533.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[Better: A dragged event opens an empty line, with its day and time said once, in the row below. Typing / lists your calendars, to choose by key or by click.
-Fixed: Check for Updates… says when a newer version is ready, and the update window comes to the front.
+            <description sparkle:format="plain-text"><![CDATA[New: Vela updates itself while you are not using it, and says so on its card.
+Fixed: The countdown in the menu bar no longer goes blank during a meeting, or runs late after sleep.
+Fixed: Undo leaves alone an event you have changed elsewhere since, and says so.
+Better: Settings says what leaves this Mac: places you type go to Apple Maps.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.2/Vela-1.0.2.dmg" length="3415655" type="application/octet-stream" sparkle:edSignature="v2lPeMAOLjs1aza1Gt55GiEM2DyeMt0fzs/KcR+Il152hDqADtCd+0DyFeXeQMYn0PLQEBnu7fbz821T0/AVBg=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.3/Vela-1.0.3.dmg" length="3501907" type="application/octet-stream" sparkle:edSignature="fF1miRd0cQynWXkTvuuW04RloHyuS/4Cv1TRPNhbsJHt+XYl/3V6bFj3dfSeUcbdPojU9TcjQxuihxuPAt8EDw=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: X6lP35RcRAfQgyYGIMubumLL4TJeoWqixxqWqwF4D38EGQYNLhaI7ELwmqFyOMydU4HeTfPy6U7hHV9I1EvABw==
+length: 1483
+-->
