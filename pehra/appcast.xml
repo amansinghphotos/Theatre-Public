@@ -4,20 +4,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Pehra</title>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Thu, 19 Nov 2026 01:38:02 -0500</pubDate>
-            <sparkle:version>20261119.0533.1</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <title>1.0.4</title>
+            <pubDate>Fri, 20 Nov 2026 12:06:36 -0500</pubDate>
+            <sparkle:version>20261120.1647.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[New: Pehra updates itself while you are not using it, and says so on its card.
-Better: It says why a plugged-in battery is not charging, when macOS knows.
-Better: It rests while its card is closed and while the screens sleep.
-Fixed: The bolt and the graph no longer lag behind the true figure.
+            <description sparkle:format="plain-text"><![CDATA[Better: The card shows the version, and the switch for betas is gone.
+Better: The figures on each card now spread across its whole width.
+Better: With its card open, Pehra uses about a quarter of the processor time it did.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.3/Pehra-1.0.3.dmg" length="3185784" type="application/octet-stream" sparkle:edSignature="cbBAnaHaZ/cWCYUqGfF5k/O84I2dho+X0LZVzP7EijjhzzrAroSMktFis86MlMR+n23uXxiBgTC/f6+rNexlBw=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.4/Pehra-1.0.4.dmg" length="3295260" type="application/octet-stream" sparkle:edSignature="vQbESVrb/YGGykYYArgRJJgD/HIVNnMiQWR3CGISZf9m2W9fmW9P5TLrfhEaYt5JVwda9c9RuSt/BCIiplrLBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: X1IW1iF/fTSyaxX9EKR6u49A4I6q7kPv5HPfpEFaBteIx3pHY4mPdeJhq1ZsGmzSGkHd4blBzCw4SoVs04hOBg==
-length: 1441
+edSignature: A1188rhzD/ddUxhdxyjzyHarNIFsGWBMSK8xZwRPvEkJ8Z+psxSTuUWWmKMR1geGIK15QSpRvk2jG2iIB2FaCQ==
+length: 1370
 -->
