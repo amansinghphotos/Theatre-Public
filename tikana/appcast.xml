@@ -4,20 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Tikana</title>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Thu, 19 Nov 2026 01:47:59 -0500</pubDate>
-            <sparkle:version>20261119.0533.1</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <title>1.0.4</title>
+            <pubDate>Fri, 20 Nov 2026 11:08:20 -0500</pubDate>
+            <sparkle:version>20261120.1524.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[New: Tikana learns the folders you already keep and suggests a home among them. Places are gone: it may suggest anywhere you keep files.
-New: A Rules page shows every rule it has learned. Set one to Always, Ask or Off.
-New: Tikana updates itself while you are not using it, and says so on its card.
-Fixed: Undoing a move sets its rule back to asking, and a download still being written is left alone.
+            <description sparkle:format="plain-text"><![CDATA[Fixed: When your Mac is back online, Tikana asks Claude again straight away instead of waiting an hour.
+Better: While Tikana is waiting for Claude, it tells you so plainly and asks nothing of you.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.3/Tikana-1.0.3.dmg" length="3087123" type="application/octet-stream" sparkle:edSignature="9htg1bE3P4cnjlqp/lnQe/3a4y6gUsx4pGnINCxJ2wRt0THrwvcDphkPCkGzfmCMSMK5Aobi1BKBBsSTzUXODQ=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.4/Tikana-1.0.4.dmg" length="3203277" type="application/octet-stream" sparkle:edSignature="S+dpfWuUl+UZU2TOmguDJjgpwpHm6PsTldNf8cBkULBrrUDAWhu5JX2i8WRfQgV302q4Ue2jwMg+f7xL5cj7DA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ogui/NIdYgLrEwYD5CullrnZkQQ7PkoK5DEYA09F226f63jcZCtQzSBrRIPJf+FC3DOaB4G6q4ei6NZ2/kg9CQ==
-length: 1551
+edSignature: IODsVgZBILCejfD5dVm7QulphmAl6c32zx5cR+lueAa2Gcm/cI63/Hh/XIPHGuAKxoIWqkIVdCh0PCxN2RyiCQ==
+length: 1347
 -->
