@@ -16,48 +16,46 @@ Fixed: Check for Updates… says when a newer version is ready, and the update w
         </item>
         <item>
             <title>1.1.0</title>
-            <pubDate>Sat, 21 Nov 2026 11:00:50 -0500</pubDate>
+            <pubDate>Sat, 21 Nov 2026 11:37:45 -0500</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261121.1407.3</sparkle:version>
+            <sparkle:version>20261121.1407.4</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[New: Bolo can keep your recordings (Keep Recordings in Settings), and they follow you to a new Mac in your settings folder.
 New: The card shows the version.
+New: Bolo tidies your words on your Mac when Claude can't, such as with no internet or in Epic. Turn on Tidy on This Mac in Settings; it downloads 2.7 GB once.
 Better: The pill's bars move with your voice in any room, even when you speak quietly.
 Better: Each dictation shows its app's icon level with its words, and the Dictionary says Delete.
+Better: Claude and your Mac tidy to your style card: Dr., 7:30 AM, December 9, and 5 mg in Epic.
 Fixed: Bolo hears a quiet voice through AirPods or any microphone you choose, and Settings lists only real ones.
 Fixed: If Claude answers late, Bolo keeps the tidied text so you can paste it.
-Still to do: Bolo is not yet good in a noisy room.
-New: Command mode. Select words, hold Right Command and say what you want ("make it warmer"); Claude rewrites them, or writes at the cursor when nothing is selected. Command-Z undoes it. Never from a hospital app.
-Better: In Epic, said marks become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical names are spelled right.
-To try: In Mail, select a sentence, hold Right Command, say "make it warmer", then press Command-Z.
-To try: In Epic, dictate a short plan with a dose and a suture, saying the punctuation.
+To try: Set Tidy on This Mac to When Claude Can't in Settings, Claude. Once it has downloaded, turn off Wi-Fi and dictate with an um. It should land tidied.
+To try: Dictate a line in Epic. It should land tidied, as a note.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.1.0-beta-20261121.1407.3/Bolo-1.1.0-beta-20261121.1407.3.dmg" length="15538218" type="application/octet-stream" sparkle:edSignature="wmgvTeU/kDsgDjJM5xsOZMoR7LTTLiKYo6vnIkez63MWgVrIOw80PWw4xKrHLgcjmhgXsAcgUTK8w1LaH9dzDA=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.1.0-beta-20261121.1407.4/Bolo-1.1.0-beta-20261121.1407.4.dmg" length="24682476" type="application/octet-stream" sparkle:edSignature="krcsgYRaxY3ByCD1LFPIoUBJ8pbdr4XyR+CVLY6CUyZNDKUZfEsEJM2Cz6hrs2MhL5BHQ1HgkUrKmrB28fWEDA=="></enclosure>
         </item>
         <item>
             <title>1.1.0</title>
-            <pubDate>Sat, 21 Nov 2026 11:00:50 -0500</pubDate>
+            <pubDate>Sat, 21 Nov 2026 11:37:45 -0500</pubDate>
             <sparkle:channel>try</sparkle:channel>
-            <sparkle:version>20261121.1407.3</sparkle:version>
+            <sparkle:version>20261121.1407.4</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[New: Bolo can keep your recordings (Keep Recordings in Settings), and they follow you to a new Mac in your settings folder.
 New: The card shows the version.
+New: Bolo tidies your words on your Mac when Claude can't, such as with no internet or in Epic. Turn on Tidy on This Mac in Settings; it downloads 2.7 GB once.
 Better: The pill's bars move with your voice in any room, even when you speak quietly.
 Better: Each dictation shows its app's icon level with its words, and the Dictionary says Delete.
+Better: Claude and your Mac tidy to your style card: Dr., 7:30 AM, December 9, and 5 mg in Epic.
 Fixed: Bolo hears a quiet voice through AirPods or any microphone you choose, and Settings lists only real ones.
 Fixed: If Claude answers late, Bolo keeps the tidied text so you can paste it.
-Still to do: Bolo is not yet good in a noisy room.
-New: Command mode. Select words, hold Right Command and say what you want ("make it warmer"); Claude rewrites them, or writes at the cursor when nothing is selected. Command-Z undoes it. Never from a hospital app.
-Better: In Epic, said marks become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical names are spelled right.
-To try: In Mail, select a sentence, hold Right Command, say "make it warmer", then press Command-Z.
-To try: In Epic, dictate a short plan with a dose and a suture, saying the punctuation.
+To try: Set Tidy on This Mac to When Claude Can't in Settings, Claude. Once it has downloaded, turn off Wi-Fi and dictate with an um. It should land tidied.
+To try: Dictate a line in Epic. It should land tidied, as a note.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.1.0-beta-20261121.1407.3/Bolo-1.1.0-beta-20261121.1407.3.dmg" length="15538218" type="application/octet-stream" sparkle:edSignature="wmgvTeU/kDsgDjJM5xsOZMoR7LTTLiKYo6vnIkez63MWgVrIOw80PWw4xKrHLgcjmhgXsAcgUTK8w1LaH9dzDA=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.1.0-beta-20261121.1407.4/Bolo-1.1.0-beta-20261121.1407.4.dmg" length="24682476" type="application/octet-stream" sparkle:edSignature="krcsgYRaxY3ByCD1LFPIoUBJ8pbdr4XyR+CVLY6CUyZNDKUZfEsEJM2Cz6hrs2MhL5BHQ1HgkUrKmrB28fWEDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: EDe3dFPWvxg1Y3+/koGT71Om6c4uL9iUcKbJOZ3zJ2ChHPJdohLsNDob9US4E6Y7zY3hK9nmPXf2+uNWFULQDg==
-length: 5278
+edSignature: SltFwa+4q0Pz9Y8MLehNSp6GdJyW3RJt2Cy/SchFQ1Ma/L94gUkXEd5csYRtFhJwh9o9U3clszgPEcgCjuh3AA==
+length: 5040
 -->
