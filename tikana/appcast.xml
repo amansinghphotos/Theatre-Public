@@ -14,8 +14,21 @@ Better: While Tikana is waiting for Claude, it tells you so plainly and asks not
 ]]></description>
             <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.0.4/Tikana-1.0.4.dmg" length="3203277" type="application/octet-stream" sparkle:edSignature="S+dpfWuUl+UZU2TOmguDJjgpwpHm6PsTldNf8cBkULBrrUDAWhu5JX2i8WRfQgV302q4Ue2jwMg+f7xL5cj7DA=="></enclosure>
         </item>
+        <item>
+            <title>1.1.0 Beta 1</title>
+            <pubDate>Sat, 21 Nov 2026 16:00:19 -0500</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[New: Tikana learns where files belong from those you move by hand.
+Better: The card shows the version, and the switch for betas is gone.
+To try: Move a screenshot into one of your folders yourself: the next like it waits to go there.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Tikana-1.1.0-beta.1/Tikana-1.1.0-beta.1.dmg" length="3621916" type="application/octet-stream" sparkle:edSignature="ZNLFCAqXmuT+Y9VabHsS9uEsW75lb+h0eRjGAy4cpds0TTRT329O0dcYRyQmE6F7JNlSfvmSdML/tPl0m6l+Aw=="></enclosure>
+        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: IODsVgZBILCejfD5dVm7QulphmAl6c32zx5cR+lueAa2Gcm/cI63/Hh/XIPHGuAKxoIWqkIVdCh0PCxN2RyiCQ==
-length: 1347
+edSignature: nyQTzlocaKd1E7TY0MAobIMt8VsiVpgumWUjjBLjzicDliF9H62S4ztzTUy1yJvbzV5y2rydXiupVeMn+1RFCQ==
+length: 2377
 -->
