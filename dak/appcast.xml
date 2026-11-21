@@ -1,5 +1,6 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Dak</title>
         <item>
@@ -12,7 +13,36 @@
 It holds your inbox and what arrives from now on; older, archived mail stays in Gmail. A sent message waits ten seconds, so ⌘Z can bring it back; Send Later and Remind Me Later hold a message or a conversation for another hour.
 Google asks you to sign in again every seven days for now, and only the addresses listed on Dak's own Google project can sign in.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Dak-1.0.0/Dak-1.0.0.dmg" length="3298042" type="application/octet-stream" sparkle:edSignature="ZgXKj0cOxidkI6089CgeHyeExAi1PSd+N2pdfooJvBXAPoJJsbx/DeaKdaGeId5gvcoGWTEjw1Q7hKQltxLSAg=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Dak-1.0.0/Dak-1.0.0.dmg" length="3298042" type="application/octet-stream" sparkle:edSignature="ZgXKj0cOxidkI6089CgeHyeExAi1PSd+N2pdfooJvBXAPoJJsbx/DeaKdaGeId5gvcoGWTEjw1Q7hKQltxLSAg=="></enclosure>
+        </item>
+        <item>
+            <title>1.0.1 Beta 1</title>
+            <pubDate>Sat, 21 Nov 2026 15:49:57 -0500</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261117.1507.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Fixed: Your own replies appear in their conversation.
+Fixed: A message sent on a sign-in Wi-Fi page waits until the connection works.
+To try: Reply in a conversation. Your reply appears beneath.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Dak-1.0.1-beta.1/Dak-1.0.1-beta.1.dmg" length="3906566" type="application/octet-stream" sparkle:edSignature="VEn11gXC1UTJRdFZ0/jkG3TZyRWSXRCDBas2DYolAtCBJ4R2RPXhxVapYe6z7neILPFmIf8s+trB+xEVkMdHCA=="></enclosure>
+        </item>
+        <item>
+            <title>1.0.1 Beta 1</title>
+            <pubDate>Sat, 21 Nov 2026 15:49:57 -0500</pubDate>
+            <sparkle:channel>try</sparkle:channel>
+            <sparkle:version>20261117.1507.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Fixed: Your own replies appear in their conversation.
+Fixed: A message sent on a sign-in Wi-Fi page waits until the connection works.
+To try: Reply in a conversation. Your reply appears beneath.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Dak-1.0.1-beta.1/Dak-1.0.1-beta.1.dmg" length="3906566" type="application/octet-stream" sparkle:edSignature="VEn11gXC1UTJRdFZ0/jkG3TZyRWSXRCDBas2DYolAtCBJ4R2RPXhxVapYe6z7neILPFmIf8s+trB+xEVkMdHCA=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: c7iDFR4JuiS0VCU9DBV+jFhTfv5IH63nVl87gm+opMqSy5U65kGLHVtn6bxLb7tGMGm/8oVuaD1y+Bc/FFlQDg==
+length: 3634
+-->
