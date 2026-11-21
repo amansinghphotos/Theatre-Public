@@ -16,8 +16,32 @@ Better: Settings says what leaves this Mac: places you type go to Apple Maps.
 ]]></description>
             <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.3/Vela-1.0.3.dmg" length="3501907" type="application/octet-stream" sparkle:edSignature="fF1miRd0cQynWXkTvuuW04RloHyuS/4Cv1TRPNhbsJHt+XYl/3V6bFj3dfSeUcbdPojU9TcjQxuihxuPAt8EDw=="></enclosure>
         </item>
+        <item>
+            <title>1.0.4</title>
+            <pubDate>Sat, 21 Nov 2026 10:03:20 -0500</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Switching between week and month now moves the same days into place instead of fading.
+To try: in Vela, press the key for month view and back, and watch the week stay put.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.4-beta-20261121.0549.2/Vela-1.0.4-beta-20261121.0549.2.dmg" length="3825816" type="application/octet-stream" sparkle:edSignature="6PcF1am4LMIYsnD1ZXokjd9BvHBvitWdZVweJ3enlI4Irqo/ifUrvApy7hyTZwB3LEwORa0V0td4cfuaEjimAQ=="></enclosure>
+        </item>
+        <item>
+            <title>1.0.4</title>
+            <pubDate>Sat, 21 Nov 2026 10:03:20 -0500</pubDate>
+            <sparkle:channel>try</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Switching between week and month now moves the same days into place instead of fading.
+To try: in Vela, press the key for month view and back, and watch the week stay put.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Vela-1.0.4-beta-20261121.0549.2/Vela-1.0.4-beta-20261121.0549.2.dmg" length="3825816" type="application/octet-stream" sparkle:edSignature="6PcF1am4LMIYsnD1ZXokjd9BvHBvitWdZVweJ3enlI4Irqo/ifUrvApy7hyTZwB3LEwORa0V0td4cfuaEjimAQ=="></enclosure>
+        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: X6lP35RcRAfQgyYGIMubumLL4TJeoWqixxqWqwF4D38EGQYNLhaI7ELwmqFyOMydU4HeTfPy6U7hHV9I1EvABw==
-length: 1483
+edSignature: raLl1auJMpGh/wiO5IpPnjt7Upoq5CTU/ujP29xUbJxQ1DQzywiZ3ICt0NvY1Hort5lZ9CNpnvjsbNXTqWnUCA==
+length: 3452
 -->
