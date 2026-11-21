@@ -14,41 +14,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.2/Chanan-1.0.2.dmg" length="2629309" type="application/octet-stream" sparkle:edSignature="bHaAh7t3A6LVIDapp3A23CaDO8ZL/TiPj7q+T+aqBWA6dfurq9YZ7OH2Lp8uDR2DeOBLFm4f8iLlfDwIaD/5Ag=="></enclosure>
         </item>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Sat, 21 Nov 2026 11:07:25 -0500</pubDate>
+            <title>1.0.3 Beta 2</title>
+            <pubDate>Sat, 21 Nov 2026 15:42:26 -0500</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261117.0422.1</sparkle:version>
+            <sparkle:version>20261117.0422.2</sparkle:version>
             <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[Better: Chanan is ready for the new Mac's display.
 Better: Auto says if Chanan or you chose the brightness.
 New: The card shows the version.
-Still to do: Only the new Mac can show it.
 To try: On the new Mac, turn the lift on and see the screen brighten.
 Better: Settings shows one group at a time in tabs, and every app keeps its settings in the folder you choose in any one.
-To try: In Auto, set a brightness and look for "Kept for this light."
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.3-beta-20261117.0422.1/Chanan-1.0.3-beta-20261117.0422.1.dmg" length="2955163" type="application/octet-stream" sparkle:edSignature="e1kgwct+skCv429fOqJ+26DvFLPGdN1Kour6BBgo5A1IlIypEs1dOCBFxwCJFMpQeigY7jQzkN8yU2ZGDa1oCw=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.3-beta.2/Chanan-1.0.3-beta.2.dmg" length="2969167" type="application/octet-stream" sparkle:edSignature="9oWH05c7drwOzqH/veQNTVdRrNgdASeU3b2DBgQ1reJFX48mrrC3ySCCO1WM3BVXt16ZHCt0KNxhqzxRBsncCw=="></enclosure>
         </item>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Sat, 21 Nov 2026 11:07:25 -0500</pubDate>
+            <title>1.0.3 Beta 2</title>
+            <pubDate>Sat, 21 Nov 2026 15:42:26 -0500</pubDate>
             <sparkle:channel>try</sparkle:channel>
-            <sparkle:version>20261117.0422.1</sparkle:version>
+            <sparkle:version>20261117.0422.2</sparkle:version>
             <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[Better: Chanan is ready for the new Mac's display.
 Better: Auto says if Chanan or you chose the brightness.
 New: The card shows the version.
-Still to do: Only the new Mac can show it.
 To try: On the new Mac, turn the lift on and see the screen brighten.
 Better: Settings shows one group at a time in tabs, and every app keeps its settings in the folder you choose in any one.
-To try: In Auto, set a brightness and look for "Kept for this light."
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.3-beta-20261117.0422.1/Chanan-1.0.3-beta-20261117.0422.1.dmg" length="2955163" type="application/octet-stream" sparkle:edSignature="e1kgwct+skCv429fOqJ+26DvFLPGdN1Kour6BBgo5A1IlIypEs1dOCBFxwCJFMpQeigY7jQzkN8yU2ZGDa1oCw=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chanan-1.0.3-beta.2/Chanan-1.0.3-beta.2.dmg" length="2969167" type="application/octet-stream" sparkle:edSignature="9oWH05c7drwOzqH/veQNTVdRrNgdASeU3b2DBgQ1reJFX48mrrC3ySCCO1WM3BVXt16ZHCt0KNxhqzxRBsncCw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: BW77XDMNgP6XiPOhRYonVCJ4+Ht9+0SEqklfUmGrPQd6S8ikfk/hn5cYqxqsrEK/+b5B7Rm8zUxPRfiocpdzDw==
-length: 3779
+edSignature: B5a8ggVCzF/QQZh8es7my4GYO4P0KugSp1yKuBOhYdqO2j13B8SEpoGn06FEn1k82ipLMNWJaljA8R3aluamCQ==
+length: 3511
 -->
