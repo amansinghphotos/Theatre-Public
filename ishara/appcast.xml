@@ -16,31 +16,39 @@ It hears a key only while Caps Lock is held, never your typing, and nothing leav
             <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.0/Ishara-1.0.0.dmg" length="2666236" type="application/octet-stream" sparkle:edSignature="/87r5CtcsJ5n2DrsIzM1id1Atga+NoCtsoO1Hd6f/prbz5HDZZ6wZcpf/5xL9IoVPLY80tpZBoDPGmi1rPDuAg=="></enclosure>
         </item>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Sat, 21 Nov 2026 10:09:20 -0500</pubDate>
+            <title>1.0.1 Beta 2</title>
+            <pubDate>Sat, 21 Nov 2026 15:52:27 -0500</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:version>20261121.0549.3</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[The keyboard picture is cleaner, and Delete stops listening for keys before it asks.
-To try: open Ishara and look over the keyboard picture.
+            <description sparkle:format="plain-text"><![CDATA[Fixed: Caps Lock with another key now works on your keyboard.
+Better: Three-finger swipes are steadier.
+New: The card shows the version.
+Better: The card is small.
+To try: Hold Caps Lock and press one of your shortcut keys.
+To try: Swipe with three fingers on a web page. The page should not scroll first.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.1-beta-20261121.0549.2/Ishara-1.0.1-beta-20261121.0549.2.dmg" length="3178327" type="application/octet-stream" sparkle:edSignature="qMZ9BMFqNbBNxOXByn46fH5msDWzd3ZsLCbnCR5/XEhOBxXnJQBguLFySFEC6/gfn1h8A15th9ttTEM2OgFQAQ=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.1-beta.2/Ishara-1.0.1-beta.2.dmg" length="3191242" type="application/octet-stream" sparkle:edSignature="rtkgtWAsLRgzj1q7bCTw11F7+5Kb9knMiRBKmFbvZGAynPTcr63j2G+Hv0e+XiADSf33+p+E9Rv1DlCsNjoYAw=="></enclosure>
         </item>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Sat, 21 Nov 2026 10:09:20 -0500</pubDate>
+            <title>1.0.1 Beta 2</title>
+            <pubDate>Sat, 21 Nov 2026 15:52:27 -0500</pubDate>
             <sparkle:channel>try</sparkle:channel>
-            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:version>20261121.0549.3</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="plain-text"><![CDATA[The keyboard picture is cleaner, and Delete stops listening for keys before it asks.
-To try: open Ishara and look over the keyboard picture.
+            <description sparkle:format="plain-text"><![CDATA[Fixed: Caps Lock with another key now works on your keyboard.
+Better: Three-finger swipes are steadier.
+New: The card shows the version.
+Better: The card is small.
+To try: Hold Caps Lock and press one of your shortcut keys.
+To try: Swipe with three fingers on a web page. The page should not scroll first.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.1-beta-20261121.0549.2/Ishara-1.0.1-beta-20261121.0549.2.dmg" length="3178327" type="application/octet-stream" sparkle:edSignature="qMZ9BMFqNbBNxOXByn46fH5msDWzd3ZsLCbnCR5/XEhOBxXnJQBguLFySFEC6/gfn1h8A15th9ttTEM2OgFQAQ=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.1-beta.2/Ishara-1.0.1-beta.2.dmg" length="3191242" type="application/octet-stream" sparkle:edSignature="rtkgtWAsLRgzj1q7bCTw11F7+5Kb9knMiRBKmFbvZGAynPTcr63j2G+Hv0e+XiADSf33+p+E9Rv1DlCsNjoYAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Eu/IdxTlmKiKQeEY7ghJ1kAD43ZeuWOZU5DTRzemKcUYAUuISIs59vB3URcP/CEa77mpJwpd4K5q3TFEeaf5Bg==
-length: 3390
+edSignature: YJfchHVJhIVDoe0v+m+kRWlh9uWmfGGBilH7cfraMNZpZP7J1J7o6qOsS2AleuFMMEHHz5vfmi7h7vfbDRuHBg==
+length: 3678
 -->
