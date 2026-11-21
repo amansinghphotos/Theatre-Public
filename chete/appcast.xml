@@ -16,8 +16,40 @@ Better: It rests while the screens sleep.
 ]]></description>
             <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.0.3/Chete-1.0.3.dmg" length="2842367" type="application/octet-stream" sparkle:edSignature="kl8Qwp5xcRJBnMU8TTVRnsEUMhxRFCMRE8NwVvP3qephLyC/r/vUN62SE999a0HGxqQokkjOESwEbx7t1xPkDg=="></enclosure>
         </item>
+        <item>
+            <title>1.1.0 Beta 1</title>
+            <pubDate>Sat, 21 Nov 2026 15:21:28 -0500</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Better: Chete stays fast with a year of history.
+New: Chete finds words inside screenshots.
+Better: The card shows the version, and the switch for betas is gone.
+Better: Pictures in the list show as pictures.
+To try: Search for a word that is inside a screenshot you copied.
+To try: Scroll back through a week of copies. It should stay quick.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.1.0-beta.1/Chete-1.1.0-beta.1.dmg" length="3124726" type="application/octet-stream" sparkle:edSignature="OGdM9zY7jlVxlD2NTUJFXsTicV/8Z+vKLdusdbZloCwGCcUcL/ha+cEeRFhz6OAeoZvCL1Xl77p/3IyHe5jNCQ=="></enclosure>
+        </item>
+        <item>
+            <title>1.1.0 Beta 1</title>
+            <pubDate>Sat, 21 Nov 2026 15:21:28 -0500</pubDate>
+            <sparkle:channel>try</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[Better: Chete stays fast with a year of history.
+New: Chete finds words inside screenshots.
+Better: The card shows the version, and the switch for betas is gone.
+Better: Pictures in the list show as pictures.
+To try: Search for a word that is inside a screenshot you copied.
+To try: Scroll back through a week of copies. It should stay quick.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Chete-1.1.0-beta.1/Chete-1.1.0-beta.1.dmg" length="3124726" type="application/octet-stream" sparkle:edSignature="OGdM9zY7jlVxlD2NTUJFXsTicV/8Z+vKLdusdbZloCwGCcUcL/ha+cEeRFhz6OAeoZvCL1Xl77p/3IyHe5jNCQ=="></enclosure>
+        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: iwCruZO0tiV1lEhwASDlvCJXgCdrNgZ4k2kx376O1w0UdfRUG3WfKGFFRDRx0ybAJUdrUNEOHCp3S3rXp6krCQ==
-length: 1383
+edSignature: 4IiWxvBySqvsAx5OYfYt6HRjUh7gHMVWBORkunZHv5JhCSi/L2vXgzcmQjZjhjDcLQ2GDKGwNM6gCtSct0X5Dg==
+length: 3656
 -->
