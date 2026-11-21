@@ -1,5 +1,6 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Ishara</title>
         <item>
@@ -12,7 +13,34 @@
 A shortcut opens an app, presses keys in the app in front, or moves the window in front.
 It hears a key only while Caps Lock is held, never your typing, and nothing leaves the Mac.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.0/Ishara-1.0.0.dmg" length="2666236" type="application/octet-stream" sparkle:edSignature="/87r5CtcsJ5n2DrsIzM1id1Atga+NoCtsoO1Hd6f/prbz5HDZZ6wZcpf/5xL9IoVPLY80tpZBoDPGmi1rPDuAg=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.0/Ishara-1.0.0.dmg" length="2666236" type="application/octet-stream" sparkle:edSignature="/87r5CtcsJ5n2DrsIzM1id1Atga+NoCtsoO1Hd6f/prbz5HDZZ6wZcpf/5xL9IoVPLY80tpZBoDPGmi1rPDuAg=="></enclosure>
+        </item>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 21 Nov 2026 10:09:20 -0500</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[The keyboard picture is cleaner, and Delete stops listening for keys before it asks.
+To try: open Ishara and look over the keyboard picture.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.1-beta-20261121.0549.2/Ishara-1.0.1-beta-20261121.0549.2.dmg" length="3178327" type="application/octet-stream" sparkle:edSignature="qMZ9BMFqNbBNxOXByn46fH5msDWzd3ZsLCbnCR5/XEhOBxXnJQBguLFySFEC6/gfn1h8A15th9ttTEM2OgFQAQ=="></enclosure>
+        </item>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 21 Nov 2026 10:09:20 -0500</pubDate>
+            <sparkle:channel>try</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[The keyboard picture is cleaner, and Delete stops listening for keys before it asks.
+To try: open Ishara and look over the keyboard picture.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Ishara-1.0.1-beta-20261121.0549.2/Ishara-1.0.1-beta-20261121.0549.2.dmg" length="3178327" type="application/octet-stream" sparkle:edSignature="qMZ9BMFqNbBNxOXByn46fH5msDWzd3ZsLCbnCR5/XEhOBxXnJQBguLFySFEC6/gfn1h8A15th9ttTEM2OgFQAQ=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: Eu/IdxTlmKiKQeEY7ghJ1kAD43ZeuWOZU5DTRzemKcUYAUuISIs59vB3URcP/CEa77mpJwpd4K5q3TFEeaf5Bg==
+length: 3390
+-->
