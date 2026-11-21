@@ -15,8 +15,25 @@ Better: With its card open, Pehra uses about a quarter of the processor time it 
 ]]></description>
             <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.4/Pehra-1.0.4.dmg" length="3295260" type="application/octet-stream" sparkle:edSignature="vQbESVrb/YGGykYYArgRJJgD/HIVNnMiQWR3CGISZf9m2W9fmW9P5TLrfhEaYt5JVwda9c9RuSt/BCIiplrLBA=="></enclosure>
         </item>
+        <item>
+            <title>1.0.5</title>
+            <pubDate>Sat, 21 Nov 2026 11:05:38 -0500</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[New: The battery card shows the time left quietly, and a day of charge as one curve, plugged-in time shaded.
+Better: Buttons and drop-downs follow one rule in every app.
+Fixed: A sudden burst of activity is no longer counted under Everything Else.
+Still to do: The Everything Else fix is not built yet.
+Better: The card shows how fast it is charging, and the charger's watts, again; the key says Plugged In.
+Fixed: The temperature graph has no gaps after the window closes for a moment.
+To try: Plug in and open the card: it should say Charging and its watts.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.5-beta-20261121.0549.2/Pehra-1.0.5-beta-20261121.0549.2.dmg" length="3438458" type="application/octet-stream" sparkle:edSignature="f7nYBLF1aXE4/LVjgwV4oS29pObeveVsnfaUxnKxeOqiNMkmUb8zs1FwkPkzI+S40L9OsZb27rClLmZ09De6BA=="></enclosure>
+        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: A1188rhzD/ddUxhdxyjzyHarNIFsGWBMSK8xZwRPvEkJ8Z+psxSTuUWWmKMR1geGIK15QSpRvk2jG2iIB2FaCQ==
-length: 1370
+edSignature: l24eDpYoIKqnrJnekZbPiSkYpiBsPh+SkhlEFmE55u5iflziMdDSoLk3xFerzXxtx9VLiQrvvj/iAErXxt9zDA==
+length: 2745
 -->
