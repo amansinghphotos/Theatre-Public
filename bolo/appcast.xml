@@ -1,5 +1,6 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Bolo</title>
         <item>
@@ -11,7 +12,54 @@
             <description sparkle:format="plain-text"><![CDATA[New: Settings list the permissions Bolo holds and what each is for, and the first run asks for each, with Not Now on the optional ones.
 Fixed: Check for Updates… says when a newer version is ready, and the update window comes to the front.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.2/Bolo-1.0.2.dmg" length="14968503" type="application/octet-stream" sparkle:edSignature="2G4DpsGU+tkc7CUff61MIyRyEwatSmqaCr93lsC2zaYfZdq3HkJiEFKrGrifUABZGdr10jN4c+bF9jG6OERUBA=="/>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.2/Bolo-1.0.2.dmg" length="14968503" type="application/octet-stream" sparkle:edSignature="2G4DpsGU+tkc7CUff61MIyRyEwatSmqaCr93lsC2zaYfZdq3HkJiEFKrGrifUABZGdr10jN4c+bF9jG6OERUBA=="></enclosure>
+        </item>
+        <item>
+            <title>1.0.3</title>
+            <pubDate>Sat, 21 Nov 2026 10:52:17 -0500</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>20261121.1407.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[New: Bolo can keep your recordings (Keep Recordings in Settings), and they follow you to a new Mac in your settings folder.
+New: The card shows the version.
+Better: The pill's bars move with your voice in any room, even when you speak quietly.
+Better: Each dictation shows its app's icon level with its words, and the Dictionary says Delete.
+Fixed: Bolo hears a quiet voice through AirPods or any microphone you choose, and Settings lists only real ones.
+Fixed: If Claude answers late, Bolo keeps the tidied text so you can paste it.
+To try: At home, pick your AirPods in Settings under Microphone and dictate a sentence.
+To try: Take one AirPod out mid-sentence. Your words should still be pasted.
+To try: Dictate quietly and watch the bars.
+Still to do: Bolo is not yet good in a noisy room.
+Better: In Epic, said marks ("comma", "period", "plan colon") become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical drug and device names are spelled right.
+To try: In Epic, dictate a short plan with a dose and a suture, saying the punctuation.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.3-beta-20261121.1407.2/Bolo-1.0.3-beta-20261121.1407.2.dmg" length="15366339" type="application/octet-stream" sparkle:edSignature="6vZiP+5bKo7zrrvlfGHW350JekfW9nKMlPM0+ZOGSJ+4shhhgiL/lyEveEGbF1EVPsjwZH4N3eOc8f+LId5/Bg=="></enclosure>
+        </item>
+        <item>
+            <title>1.0.3</title>
+            <pubDate>Sat, 21 Nov 2026 10:52:17 -0500</pubDate>
+            <sparkle:channel>try</sparkle:channel>
+            <sparkle:version>20261121.1407.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[New: Bolo can keep your recordings (Keep Recordings in Settings), and they follow you to a new Mac in your settings folder.
+New: The card shows the version.
+Better: The pill's bars move with your voice in any room, even when you speak quietly.
+Better: Each dictation shows its app's icon level with its words, and the Dictionary says Delete.
+Fixed: Bolo hears a quiet voice through AirPods or any microphone you choose, and Settings lists only real ones.
+Fixed: If Claude answers late, Bolo keeps the tidied text so you can paste it.
+To try: At home, pick your AirPods in Settings under Microphone and dictate a sentence.
+To try: Take one AirPod out mid-sentence. Your words should still be pasted.
+To try: Dictate quietly and watch the bars.
+Still to do: Bolo is not yet good in a noisy room.
+Better: In Epic, said marks ("comma", "period", "plan colon") become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical drug and device names are spelled right.
+To try: In Epic, dictate a short plan with a dose and a suture, saying the punctuation.
+]]></description>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.3-beta-20261121.1407.2/Bolo-1.0.3-beta-20261121.1407.2.dmg" length="15366339" type="application/octet-stream" sparkle:edSignature="6vZiP+5bKo7zrrvlfGHW350JekfW9nKMlPM0+ZOGSJ+4shhhgiL/lyEveEGbF1EVPsjwZH4N3eOc8f+LId5/Bg=="></enclosure>
         </item>
     </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: DSuwwX/GNn24GrOsEUwNHD52Lnj3/h14wCGKK6LbEinvFY9MA+YioQpQVh9eR9A7LiKNf91xEdWLZ0iZgQ8yBQ==
+length: 5168
+-->
