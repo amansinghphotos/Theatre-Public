@@ -15,11 +15,11 @@ Fixed: Check for Updates… says when a newer version is ready, and the update w
             <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.2/Bolo-1.0.2.dmg" length="14968503" type="application/octet-stream" sparkle:edSignature="2G4DpsGU+tkc7CUff61MIyRyEwatSmqaCr93lsC2zaYfZdq3HkJiEFKrGrifUABZGdr10jN4c+bF9jG6OERUBA=="></enclosure>
         </item>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Sat, 21 Nov 2026 10:52:17 -0500</pubDate>
+            <title>1.1.0</title>
+            <pubDate>Sat, 21 Nov 2026 11:00:50 -0500</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261121.1407.2</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:version>20261121.1407.3</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[New: Bolo can keep your recordings (Keep Recordings in Settings), and they follow you to a new Mac in your settings folder.
 New: The card shows the version.
@@ -27,21 +27,20 @@ Better: The pill's bars move with your voice in any room, even when you speak qu
 Better: Each dictation shows its app's icon level with its words, and the Dictionary says Delete.
 Fixed: Bolo hears a quiet voice through AirPods or any microphone you choose, and Settings lists only real ones.
 Fixed: If Claude answers late, Bolo keeps the tidied text so you can paste it.
-To try: At home, pick your AirPods in Settings under Microphone and dictate a sentence.
-To try: Take one AirPod out mid-sentence. Your words should still be pasted.
-To try: Dictate quietly and watch the bars.
 Still to do: Bolo is not yet good in a noisy room.
-Better: In Epic, said marks ("comma", "period", "plan colon") become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical drug and device names are spelled right.
+New: Command mode. Select words, hold Right Command and say what you want ("make it warmer"); Claude rewrites them, or writes at the cursor when nothing is selected. Command-Z undoes it. Never from a hospital app.
+Better: In Epic, said marks become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical names are spelled right.
+To try: In Mail, select a sentence, hold Right Command, say "make it warmer", then press Command-Z.
 To try: In Epic, dictate a short plan with a dose and a suture, saying the punctuation.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.3-beta-20261121.1407.2/Bolo-1.0.3-beta-20261121.1407.2.dmg" length="15366339" type="application/octet-stream" sparkle:edSignature="6vZiP+5bKo7zrrvlfGHW350JekfW9nKMlPM0+ZOGSJ+4shhhgiL/lyEveEGbF1EVPsjwZH4N3eOc8f+LId5/Bg=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.1.0-beta-20261121.1407.3/Bolo-1.1.0-beta-20261121.1407.3.dmg" length="15538218" type="application/octet-stream" sparkle:edSignature="wmgvTeU/kDsgDjJM5xsOZMoR7LTTLiKYo6vnIkez63MWgVrIOw80PWw4xKrHLgcjmhgXsAcgUTK8w1LaH9dzDA=="></enclosure>
         </item>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Sat, 21 Nov 2026 10:52:17 -0500</pubDate>
+            <title>1.1.0</title>
+            <pubDate>Sat, 21 Nov 2026 11:00:50 -0500</pubDate>
             <sparkle:channel>try</sparkle:channel>
-            <sparkle:version>20261121.1407.2</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:version>20261121.1407.3</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[New: Bolo can keep your recordings (Keep Recordings in Settings), and they follow you to a new Mac in your settings folder.
 New: The card shows the version.
@@ -49,17 +48,16 @@ Better: The pill's bars move with your voice in any room, even when you speak qu
 Better: Each dictation shows its app's icon level with its words, and the Dictionary says Delete.
 Fixed: Bolo hears a quiet voice through AirPods or any microphone you choose, and Settings lists only real ones.
 Fixed: If Claude answers late, Bolo keeps the tidied text so you can paste it.
-To try: At home, pick your AirPods in Settings under Microphone and dictate a sentence.
-To try: Take one AirPod out mid-sentence. Your words should still be pasted.
-To try: Dictate quietly and watch the bars.
 Still to do: Bolo is not yet good in a noisy room.
-Better: In Epic, said marks ("comma", "period", "plan colon") become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical drug and device names are spelled right.
+New: Command mode. Select words, hold Right Command and say what you want ("make it warmer"); Claude rewrites them, or writes at the cursor when nothing is selected. Command-Z undoes it. Never from a hospital app.
+Better: In Epic, said marks become marks, numbers become digits with short units (5 mg, 3-0 Vicryl, POD 2), and surgical names are spelled right.
+To try: In Mail, select a sentence, hold Right Command, say "make it warmer", then press Command-Z.
 To try: In Epic, dictate a short plan with a dose and a suture, saying the punctuation.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.0.3-beta-20261121.1407.2/Bolo-1.0.3-beta-20261121.1407.2.dmg" length="15366339" type="application/octet-stream" sparkle:edSignature="6vZiP+5bKo7zrrvlfGHW350JekfW9nKMlPM0+ZOGSJ+4shhhgiL/lyEveEGbF1EVPsjwZH4N3eOc8f+LId5/Bg=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Bolo-1.1.0-beta-20261121.1407.3/Bolo-1.1.0-beta-20261121.1407.3.dmg" length="15538218" type="application/octet-stream" sparkle:edSignature="wmgvTeU/kDsgDjJM5xsOZMoR7LTTLiKYo6vnIkez63MWgVrIOw80PWw4xKrHLgcjmhgXsAcgUTK8w1LaH9dzDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DSuwwX/GNn24GrOsEUwNHD52Lnj3/h14wCGKK6LbEinvFY9MA+YioQpQVh9eR9A7LiKNf91xEdWLZ0iZgQ8yBQ==
-length: 5168
+edSignature: EDe3dFPWvxg1Y3+/koGT71Om6c4uL9iUcKbJOZ3zJ2ChHPJdohLsNDob9US4E6Y7zY3hK9nmPXf2+uNWFULQDg==
+length: 5278
 -->
