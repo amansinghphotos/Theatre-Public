@@ -17,23 +17,22 @@ Better: With its card open, Pehra uses about a quarter of the processor time it 
         </item>
         <item>
             <title>1.0.5</title>
-            <pubDate>Sat, 21 Nov 2026 11:05:38 -0500</pubDate>
+            <pubDate>Sat, 21 Nov 2026 11:34:25 -0500</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>20261121.0549.2</sparkle:version>
+            <sparkle:version>20261121.0549.3</sparkle:version>
             <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
             <description sparkle:format="plain-text"><![CDATA[New: The battery card shows the time left quietly, and a day of charge as one curve, plugged-in time shaded.
 Better: Buttons and drop-downs follow one rule in every app.
 Fixed: A sudden burst of activity is no longer counted under Everything Else.
+To try: Open the card and see your battery's curve fill in over a day.
 Still to do: The Everything Else fix is not built yet.
-Better: The card shows how fast it is charging, and the charger's watts, again; the key says Plugged In.
-Fixed: The temperature graph has no gaps after the window closes for a moment.
-To try: Plug in and open the card: it should say Charging and its watts.
+Better: The GPU shows <1% instead of 0% when barely in use.
 ]]></description>
-            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.5-beta-20261121.0549.2/Pehra-1.0.5-beta-20261121.0549.2.dmg" length="3438458" type="application/octet-stream" sparkle:edSignature="f7nYBLF1aXE4/LVjgwV4oS29pObeveVsnfaUxnKxeOqiNMkmUb8zs1FwkPkzI+S40L9OsZb27rClLmZ09De6BA=="></enclosure>
+            <enclosure url="https://github.com/amansinghphotos/Theatre-Public/releases/download/Pehra-1.0.5-beta-20261121.0549.3/Pehra-1.0.5-beta-20261121.0549.3.dmg" length="3439423" type="application/octet-stream" sparkle:edSignature="9uWj+BCsVEKmLXiJykFOu4EVL4sz8gf7by5QQjuS6retszV6pMKyplhIdcX4i2WHePnuUFu3Naf7FoVSdjzzCQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: l24eDpYoIKqnrJnekZbPiSkYpiBsPh+SkhlEFmE55u5iflziMdDSoLk3xFerzXxtx9VLiQrvvj/iAErXxt9zDA==
-length: 2745
+edSignature: DSsf7W1fzNJGxcj0hpuEiF8coQvhr966RLGfG7hEjrYyZR71VCpqQlzpC7TEFiOzF1zeiILfV2JnjFH+qiarBw==
+length: 2619
 -->
